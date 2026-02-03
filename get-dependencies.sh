@@ -33,4 +33,3 @@ install -D -t /usr/bin nblood
 install -D -t /usr/share/games/nblood -m 644 nblood.pk3
 install -D -t /usr/share/licenses/nblood -m 644 package/common/buildlic.txt
 install -Dm644 source/blood/rsrc/game_icon.ico /usr/share/pixmaps/nblood.ico
-#install -D -t "$pkgdir"/usr/share/applications -m 644 "$srcdir"/nblood.desktop
