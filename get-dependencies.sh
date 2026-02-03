@@ -7,11 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    flac     \
     glu      \
     libdecor \
-    libogg   \
-    libvorbis \
     libvpx   \
     sdl2
 
