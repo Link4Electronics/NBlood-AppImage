@@ -30,5 +30,6 @@ echo "$VERSION" > ~/version
 cd ./NBlood
 make blood -j$(nproc)
 mv -v nblood /usr/bin
+mkdir -p /usr/share/games/nblood
 mv -v nblood.pk3 /usr/share/games/nblood
 cp -r source/blood/rsrc/game_icon.ico /usr/share/pixmaps/nblood.ico
