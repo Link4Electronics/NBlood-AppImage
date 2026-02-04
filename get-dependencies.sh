@@ -29,7 +29,6 @@ echo "$VERSION" > ~/version
 
 cd ./NBlood
 make blood -j$(nproc)
-install -D -t /usr/bin nblood
-install -D -t /usr/share/games/nblood -m 644 nblood.pk3
-install -D -t /usr/share/licenses/nblood -m 644 package/common/buildlic.txt
-install -Dm644 source/blood/rsrc/game_icon.ico /usr/share/pixmaps/nblood.ico
+mv -v /usr/bin nblood
+mv -v /usr/share/games/nblood -m 644 nblood.pk3
+cp -r source/blood/rsrc/game_icon.ico /usr/share/pixmaps/nblood.ico
