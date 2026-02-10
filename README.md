@@ -17,7 +17,7 @@
 
 </div>
 
-## ⚠️ Game assets go inside `~/.config/nblood` ⚠️
+## ⚠️ Game assets within `~/.config/nblood` ⚠️
 ## ⚠️ To use soundfonts copy *.sf2 to same folder or `ln -s /usr/share/soundfonts/sfname.sf2 ~/.config/nblood/sfname.sf2` ⚠️
 
 ---
