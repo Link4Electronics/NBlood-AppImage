@@ -4,5 +4,6 @@ Name=NBlood
 GenericName=Blood port based on EDuke32
 Icon=nblood
 Exec=nblood %F
+StartupWMClass=Nblood
 Terminal=false
 Categories=Game;ActionGame;
