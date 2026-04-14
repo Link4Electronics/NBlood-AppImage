@@ -1,4 +1,4 @@
 #!/bin/sh
-dir=${XDG_CONFIG_HOME:-~/.config}/nblood
+dir=$CONFIGDIR/nblood
 mkdir -p "$dir"
 cd "$dir"
